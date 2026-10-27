@@ -1,0 +1,72 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+.env
+.env.*
+!.env.example
+.local/
+*.log
+*.jfr
+*.hprof
+**/target/
+
+docs/
+README.md
+### Generated Java / IDE output ###
+**/bin/
+**/out/
+*.class
+*.jar
+*.war
+*.ear
+
+### Local files / crash dumps ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*
+
+### Private credentials / keystores ###
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
